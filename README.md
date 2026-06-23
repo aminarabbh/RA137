@@ -147,7 +147,7 @@ graph TD
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-org/RA137.git
+git clone https://github.com/aminarabbh/RA137.git
 cd RA137
 
 # 2. Run the installer (installs all dependencies)
