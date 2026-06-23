@@ -56,7 +56,7 @@ def run_gobuster(domain: str, wordlist_path: str, output_dir: Path) -> Set[str]:
 
     cmd = [
         "gobuster", "dns",
-        "-d", domain,
+        "-do", domain,
         "--resolver", "8.8.8.8",
         "-w", wordlist_path,
         "-t", "50",
